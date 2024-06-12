@@ -1,0 +1,13 @@
+{
+    "configurations": [
+        {
+        "type": "node",
+        "request": "launch",
+        "name": "Launch Program",
+        "program": "${workspaceFolder}/src/app/FlightPlanner.ts",
+        "preLaunchTask": "tsc: build - tsconfig.json",
+        "outFiles": ["${workspaceFolder}/out/**/*.js"],
+        "console": "integratedTerminal"
+        }
+    ] 
+}
