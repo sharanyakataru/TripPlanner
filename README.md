@@ -16,16 +16,13 @@ Airport - Represents an airport, including a method to calculate the distance be
 WeightedEdge - Represents a weighted edge in the graph.
 WeightedGraph - A generic graph data structure used to manage airports and connections between them.
 TripPlanner - The main application allowing users to plan trips, add stops, and view summaries.
+
 Detailed Instructions
 Install Dependencies: Run npm install to install all necessary dependencies.
 tsTPS: Transaction Processing System
 Objective: Implement the transaction processing system in TypeScript.
-Details:
-Define the tsTPS class using the provided function signatures.
-Use the transactions array to manage a list of transactions.
-Implement methods for adding, undoing, and redoing transactions.
-Airport Class
-Objective: Complete the Airport class to manage airport data and calculate distances.
+
+Objective: Airport class to manage airport data and calculate distances.
 Details:
 Implement the calculateDistance method. 
 Ensure the class can handle airport data properly.
@@ -34,7 +31,7 @@ Objective: Create a class to represent a weighted edge in the graph.
 Details:
 Define the class with properties for source, destination, and weight (distance).
 WeightedGraph Class
-Objective: Complete the implementation of the graph data structure.
+Objective: implementation of the graph data structure.
 Details:
 Define methods for adding nodes and edges.
 Implement the findPath method using an algorithm (e.g., Dijkstra's, DFS, BFS).
