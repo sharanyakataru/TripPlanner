@@ -27,7 +27,7 @@ Implement methods for adding, undoing, and redoing transactions.
 Airport Class
 Objective: Complete the Airport class to manage airport data and calculate distances.
 Details:
-Implement the calculateDistance method similar to HW 1.
+Implement the calculateDistance method. 
 Ensure the class can handle airport data properly.
 WeightedEdge Class
 Objective: Create a class to represent a weighted edge in the graph.
@@ -49,5 +49,4 @@ Objective: Load airport data dynamically from a JSON file.
 Details:
 Load Flights.json which contains airport codes and edges.
 Parse the JSON file and initialize the graph with nodes and edges from the file.
-Additional Requirements:
-JSON File: Ensure that all airport nodes and edges are loaded dynamically from Flights.json.
+
